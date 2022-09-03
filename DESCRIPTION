@@ -1,0 +1,19 @@
+Package: ccaR
+Type: Package
+Title: Calculates the Corrected Covered Area Index and Creates a Heatmap 
+Version: 0.1.0
+Author: Theodoros Diakonidis, Konstantinos Bougioukas
+Maintainer: Theodoros Diakonidis <diakonidis@auth.gr>
+Description: Calculates and depicts the corrected covered area (CCA) index. This index is useful for asessesing the degree of primary study overlap across systematic reviews included in an overview. All the functions enable the incorporation of structural missingness in the citation matrix. The generated "ggplot2"-based heatmap is a publication-ready plot and may be useful for authors who conduct overviews of reviews.
+License: GPL-2
+Encoding: UTF-8
+LazyData: FALSE
+Imports: 
+    ggplot2,
+    readxl,
+    utils
+RoxygenNote: 7.2.0
+Depends: 
+    R (>= 2.10)
+VignetteBuilder: knitr
+Suggests: markdown,knitr
